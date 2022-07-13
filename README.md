@@ -1,4 +1,4 @@
-# WATCHA PEDIA clone 
+# WATCHA PEDIA clone
 
 ```
 npm intall
