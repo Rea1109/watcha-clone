@@ -4,10 +4,13 @@ import Movie from './pages/Movie';
 import Tv from './pages/Tv';
 import MovieDetail from './pages/MovieDetail';
 import TvDetail from './pages/TvDetail';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 const App = () => {
     return (
         <BrowserRouter>
+            <Header />
             <Routes>
                 <Route path="/" element={<Main />} />
                 <Route path="/movie" element={<Movie />} />
@@ -15,6 +18,7 @@ const App = () => {
                 <Route path="/tv" element={<Tv />} />
                 <Route path="/tv/:id" element={<TvDetail />} />
             </Routes>
+            <Footer />
         </BrowserRouter>
     );
 };

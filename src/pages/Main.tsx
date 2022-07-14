@@ -1,7 +1,5 @@
-import Header from '../components/Header';
-
 const Main = () => {
-    return <Header />;
+    return <div></div>;
 };
 
 export default Main;
