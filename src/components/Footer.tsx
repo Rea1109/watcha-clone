@@ -7,7 +7,7 @@ const Footer = () => {
         <FooterWrapper>
             <FooterSection>
                 <InfoSection>
-                    <span>©20022 by Rea All rights reserved.</span>
+                    <span>©2022 by Rea All rights reserved.</span>
                 </InfoSection>
                 <LinkSection>
                     <BsGithub onClick={() => window.open('https://github.com/Rea1109/watcha-clone')} />
